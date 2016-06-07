@@ -1,9 +1,8 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>BubbleChartID7d413a6850</title>
+<title>BubbleChartID750491965e4</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -19,14 +18,14 @@ body {
 </head>
 <body>
  <!-- BubbleChart generated in R 3.2.3 by googleVis 0.5.10 package -->
-<!-- Thu May 26 15:04:23 2016 -->
+<!-- Tue Jun 07 11:19:27 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID7d413a6850 () {
+function gvisDataBubbleChartID750491965e4 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1024,14 +1023,16 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID7d413a6850() {
-var data = gvisDataBubbleChartID7d413a6850();
+function drawChartBubbleChartID750491965e4() {
+var data = gvisDataBubbleChartID750491965e4();
 var options = {};
-
+options["title"] = "correlation of life expectation and income";
+options["hAxis"] = {title:'life expectation', minValue:48, maxValue:83};
+options["vAxis"] = {title:'Income', minValue:180, maxValue:80000};
 
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID7d413a6850')
+    document.getElementById('BubbleChartID750491965e4')
     );
     chart.draw(data,options);
     
@@ -1055,9 +1056,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID7d413a6850);
+callbacks.push(drawChartBubbleChartID750491965e4);
 })();
-function displayChartBubbleChartID7d413a6850() {
+function displayChartBubbleChartID750491965e4() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1081,28 +1082,19 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID7d413a6850"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID750491965e4"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID7d413a6850" 
+<div id="BubbleChartID750491965e4" 
   style="width: 500; height: automatic;">
 </div>
-<div>
-  <p>
-    
-    <p></p>
-  
-    
-<div> 
-소득과 인구과의 상관관계를 살펴보니 
+<div> 소득과 인구과의 상관관계를 살펴보니 
 <p> 선진국으로 갈수록 인구대비 소득이 높은것을 확인할 수 있었다.</p>
 <p> 인구가 많다거나 적다고 해서 소비에 크게 영향을 주는 것 같지 않다.</p>
 <p> 흔히 선진국이라 불리는 나라와 개발도상국이라 분류되는 나라는 소득격차가 매우 크다.</p>
 </div>
-
-</div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_BubbleChartID7d413a6850.html">BubbleChartID7d413a6850</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_BubbleChartID750491965e4.html">BubbleChartID750491965e4</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.2.3 (2015-12-10) 
